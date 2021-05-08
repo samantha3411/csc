@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="inc/bootstrap5/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="inc/fontawesome5/css/all.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+      <title>Stopwatch</title>
+    </head>
+    <body>
+        <div>Seconds: <span id="time">0</span></div>
+        <input type="button" id="startTimer" value="Start Timer" onclick="start();"><br/>
+        <input type="button" id="stopTimer" value="Stop Timer"  onclick="stop();"><br/>
+        <input type="button" id="resetTimer" value="Reset Timer"  onclick="reset();"><br/>
+        <script>
+
+</head>
+
+</body>
+
+</html>
